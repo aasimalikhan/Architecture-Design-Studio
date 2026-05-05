@@ -34,12 +34,16 @@
   overflow: hidden;
   vertical-align: top;
   /* Room for descenders inside the mask (lh-display is tight on parent headings). */
-  padding-bottom: 0.12em;
+  padding-top: 0.08em;
+  padding-bottom: 0.16em;
 }
 .split-line__inner {
   display: inline-block;
-  transform: translateY(110%);
+  transform: translateY(0);
   will-change: transform;
+}
+.is-split-lines .split-line__inner {
+  transform: translateY(110%);
 }
 
 .rule {
