@@ -59,8 +59,10 @@ const makeFallbackEarthTexture = (): THREE.CanvasTexture => {
   return tex;
 };
 
-const EARTH_WEBP = '/assets/ui/earth-hero-1024.webp';
-const EARTH_JPG = '/assets/ui/earth-atmos-2048.jpg';
+const withBase = (p: string) => new URL(p, import.meta.env.BASE_URL).pathname;
+
+const EARTH_WEBP = withBase('assets/ui/earth-hero-1024.webp');
+const EARTH_JPG = withBase('assets/ui/earth-atmos-2048.jpg');
 
 export const mountGlobeHero = (host: HTMLElement, pins: GlobeProjectPin[]) => {
   if (env.reduced) {
