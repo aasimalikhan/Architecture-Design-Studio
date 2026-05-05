@@ -47,6 +47,17 @@ function route(path: string, handler: RouteHandler): Route {
 
 let currentCleanup: (() => void) | void = undefined;
 
+const basePath = () => {
+  const b = import.meta.env.BASE_URL ?? '/';
+  return b.endsWith('/') ? b.slice(0, -1) : b;
+};
+
+const stripBase = (path: string) => {
+  const b = basePath();
+  if (!b || b === '/') return path;
+  return path.startsWith(b) ? path.slice(b.length) || '/' : path;
+};
+
 const match = (path: string) => {
   for (const r of routes) {
     const m = path.match(r.pattern);
@@ -82,16 +93,18 @@ export const navigate = async (path: string, replace = false) => {
   const main = document.getElementById('main') as HTMLElement | null;
   if (!main) return;
 
-  const target = match(path) ?? match('/');
+  const appPath = stripBase(path);
+  const target = match(appPath) ?? match('/');
   if (!target) return;
 
   if (!replace) {
-    if (location.pathname + location.search !== path) {
-      history.pushState({}, '', path);
+    const current = stripBase(location.pathname + location.search);
+    if (current !== appPath) {
+      history.pushState({}, '', basePath() + appPath);
     }
   }
 
-  document.documentElement.dataset.route = path;
+  document.documentElement.dataset.route = appPath;
 
   if (currentCleanup) {
     try {
@@ -107,7 +120,7 @@ export const navigate = async (path: string, replace = false) => {
   scrollToTop();
 
   try {
-    currentCleanup = await target.handler({ path, params: target.params, main });
+    currentCleanup = await target.handler({ path: appPath, params: target.params, main });
   } catch (e) {
     console.error('route render failed', e);
     main.innerHTML = `<section class="error"><h1>Something went wrong.</h1><p>${String(e)}</p></section>`;
@@ -122,7 +135,7 @@ export const navigate = async (path: string, replace = false) => {
   document.querySelectorAll<HTMLAnchorElement>('.nav__links a').forEach((a) => {
     const href = a.getAttribute('href') ?? '';
     const active =
-      href === path || (href !== '/' && path.startsWith(href));
+      href === appPath || (href !== '/' && appPath.startsWith(href));
     a.classList.toggle('is-active', active);
   });
 
@@ -131,13 +144,14 @@ export const navigate = async (path: string, replace = false) => {
 
 const onClick = (e: MouseEvent) => {
   if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-  const a = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>('a[data-link], a[href^="/"]');
+  const a = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>('a[data-link], a[href]');
   if (!a) return;
   const href = a.getAttribute('href');
   if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('#')) return;
   if (a.target === '_blank') return;
   e.preventDefault();
-  navigate(href);
+  const u = new URL(href, location.href);
+  navigate(u.pathname + u.search + u.hash);
 };
 
 const onPop = () => {

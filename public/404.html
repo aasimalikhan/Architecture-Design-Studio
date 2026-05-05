@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var l = window.location;
+        var parts = l.pathname.split('/').filter(Boolean);
+        // For GitHub Pages project sites, the first path segment is the repo name.
+        var base = parts.length > 0 ? '/' + parts[0] + '/' : '/';
+        var full = l.pathname + l.search + l.hash;
+        l.replace(base + '?p=' + encodeURIComponent(full));
+      })();
+    </script>
+  </body>
+</html>
+

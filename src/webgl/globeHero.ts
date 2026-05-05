@@ -3,6 +3,8 @@ import { env, isMobile } from '@/store';
 
 export type GlobeProjectPin = { lat: number; lon: number };
 
+const withBase = (p: string) => `${import.meta.env.BASE_URL}${p.replace(/^\/+/, '')}`;
+
 // y-up Three.js: north pole +Y. Longitude east positive.
 const latLonToVector3 = (lat: number, lon: number, radius: number) => {
   const phi = (90 - lat) * (Math.PI / 180);
@@ -59,8 +61,8 @@ const makeFallbackEarthTexture = (): THREE.CanvasTexture => {
   return tex;
 };
 
-const EARTH_WEBP = '/assets/ui/earth-hero-1024.webp';
-const EARTH_JPG = '/assets/ui/earth-atmos-2048.jpg';
+const EARTH_WEBP = withBase('/assets/ui/earth-hero-1024.webp');
+const EARTH_JPG = withBase('/assets/ui/earth-atmos-2048.jpg');
 
 export const mountGlobeHero = (host: HTMLElement, pins: GlobeProjectPin[]) => {
   if (env.reduced) {
