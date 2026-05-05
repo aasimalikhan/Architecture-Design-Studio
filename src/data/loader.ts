@@ -7,7 +7,7 @@ export const loadProjects = async (): Promise<ProjectsPayload> => {
   if (cache) return cache;
   if (inFlight) return inFlight;
 
-  const url = new URL('data/projects.json', import.meta.env.BASE_URL).toString();
+  const url = `${import.meta.env.BASE_URL}data/projects.json`;
 
   inFlight = fetch(url, { cache: 'force-cache' })
     .then((r) => {

@@ -13,6 +13,15 @@ const DATA_DIR = join(ROOT, 'public', 'data');
 const IMAGE_EXT = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif']);
 const HERO_HINTS = ['hero', 'cover', 'main', '1', '01', 'entrance', 'partial west view 01'];
 
+// Respect Vite base path (needed for GitHub Pages project sites).
+// This script runs during `prebuild`, so it receives the same env vars as `vite build`.
+const BASE = (() => {
+  const b = (process.env.VITE_BASE ?? '/').trim();
+  if (b === '') return '/';
+  return b.endsWith('/') ? b : `${b}/`;
+})();
+const withBase = (p) => `${BASE}${p.replace(/^\/+/, '')}`;
+
 const slugify = (s) =>
   s
     .toLowerCase()
@@ -202,7 +211,7 @@ const rasterVariants = (slug, stem) => {
   const p960 = join(WEBP_DIR, slug, `${stem}-w960.webp`);
   const p1920 = join(WEBP_DIR, slug, `${stem}-w1920.webp`);
   if (!existsSync(p960) || !existsSync(p1920)) return undefined;
-  const base = `/assets/projects-webp/${slug}`;
+  const base = withBase(`/assets/projects-webp/${slug}`);
   return {
     thumb: `${base}/${enc}-w960.webp`,
     srcset: `${base}/${enc}-w960.webp 960w, ${base}/${enc}-w1920.webp 1920w`,
@@ -231,7 +240,7 @@ const main = () => {
       const heroFile = pickHero(files);
       const heroStem = basename(heroFile, extname(heroFile));
       const carouselFiles = files; // include hero in carousel for continuity
-      const baseUrl = `/assets/projects/${encodeURI(folder)}`;
+      const baseUrl = withBase(`/assets/projects/${encodeURI(folder)}`);
 
       const override = OVERRIDES[slug] ?? {};
       const fallbackTitle = folder
