@@ -36,6 +36,10 @@ jobs:
           VITE_BASE: /Architecture-Design-Studio/
         run: npm run build
 
+      - name: Slim down artifact (keep WebP only)
+        run: |
+          rm -rf dist/assets/projects
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
