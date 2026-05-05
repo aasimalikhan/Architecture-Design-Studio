@@ -26,7 +26,6 @@ const splitIntoLines = (el: HTMLElement) => {
     })
     .join('<br>');
   el.dataset.splitDone = '1';
-  el.classList.add('is-split-lines');
 };
 
 export const animateHero = (root: HTMLElement) => {
