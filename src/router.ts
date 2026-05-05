@@ -32,6 +32,38 @@ const routes: Route[] = [
   route('/contact', renderContact),
 ];
 
+const baseUrl = (() => {
+  const b = (import.meta.env.BASE_URL || '/').trim();
+  // Ensure trailing slash, no double slashes.
+  return b.endsWith('/') ? b : `${b}/`;
+})();
+
+const toAppPath = (input: string) => {
+  // Accept absolute URLs, base-prefixed paths, and plain app paths.
+  try {
+    const u = new URL(input, window.location.origin);
+    const path = u.pathname + u.search + u.hash;
+    if (baseUrl !== '/' && u.pathname.startsWith(baseUrl)) {
+      const stripped = u.pathname.slice(baseUrl.length - 1) + u.search + u.hash;
+      return stripped || '/';
+    }
+    if (u.origin === window.location.origin) return path || '/';
+  } catch {
+    // fall through
+  }
+  if (baseUrl !== '/' && input.startsWith(baseUrl)) {
+    const stripped = input.slice(baseUrl.length - 1);
+    return stripped || '/';
+  }
+  return input || '/';
+};
+
+const toBrowserPath = (appPath: string) => {
+  const p = appPath.startsWith('/') ? appPath : `/${appPath}`;
+  if (baseUrl === '/') return p;
+  return `${baseUrl.replace(/\/$/, '')}${p}`;
+};
+
 function route(path: string, handler: RouteHandler): Route {
   const keys: string[] = [];
   const pattern = new RegExp(
@@ -79,19 +111,21 @@ const transitionIn = (main: HTMLElement) => {
 };
 
 export const navigate = async (path: string, replace = false) => {
+  const appPath = toAppPath(path);
   const main = document.getElementById('main') as HTMLElement | null;
   if (!main) return;
 
-  const target = match(path) ?? match('/');
+  const target = match(appPath) ?? match('/');
   if (!target) return;
 
   if (!replace) {
-    if (location.pathname + location.search !== path) {
-      history.pushState({}, '', path);
+    const browserPath = toBrowserPath(appPath);
+    if (location.pathname + location.search + location.hash !== browserPath) {
+      history.pushState({}, '', browserPath);
     }
   }
 
-  document.documentElement.dataset.route = path;
+  document.documentElement.dataset.route = appPath;
 
   if (currentCleanup) {
     try {
@@ -107,7 +141,7 @@ export const navigate = async (path: string, replace = false) => {
   scrollToTop();
 
   try {
-    currentCleanup = await target.handler({ path, params: target.params, main });
+    currentCleanup = await target.handler({ path: appPath, params: target.params, main });
   } catch (e) {
     console.error('route render failed', e);
     main.innerHTML = `<section class="error"><h1>Something went wrong.</h1><p>${String(e)}</p></section>`;
@@ -120,9 +154,9 @@ export const navigate = async (path: string, replace = false) => {
 
   // Update active nav links.
   document.querySelectorAll<HTMLAnchorElement>('.nav__links a').forEach((a) => {
-    const href = a.getAttribute('href') ?? '';
+    const href = a.dataset.route ?? toAppPath(a.getAttribute('href') ?? '');
     const active =
-      href === path || (href !== '/' && path.startsWith(href));
+      href === appPath || (href !== '/' && appPath.startsWith(href));
     a.classList.toggle('is-active', active);
   });
 
@@ -137,15 +171,15 @@ const onClick = (e: MouseEvent) => {
   if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('#')) return;
   if (a.target === '_blank') return;
   e.preventDefault();
-  navigate(href);
+  navigate(a.dataset.route ?? toAppPath(href));
 };
 
 const onPop = () => {
-  navigate(location.pathname + location.search, true);
+  navigate(location.pathname + location.search + location.hash, true);
 };
 
 export const startRouter = () => {
   document.addEventListener('click', onClick);
   window.addEventListener('popstate', onPop);
-  navigate(location.pathname + location.search, true);
+  navigate(location.pathname + location.search + location.hash, true);
 };

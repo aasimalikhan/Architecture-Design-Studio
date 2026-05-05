@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        // GitHub Pages serves `404.html` for deep links in SPAs.
+        // Redirect back to the app entrypoint, preserving the full URL.
+        var base = '/Architecture-Design-Studio/';
+        var path = window.location.pathname + window.location.search + window.location.hash;
+        var target = base + '?redirect=' + encodeURIComponent(path);
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+

@@ -1,6 +1,23 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
   <head>
+    <script>
+      // GitHub Pages SPA fallback: `public/404.html` redirects with `?redirect=`.
+      // On first load, restore the intended URL before the router starts.
+      (function () {
+        try {
+          var url = new URL(window.location.href);
+          var redirect = url.searchParams.get('redirect');
+          if (!redirect) return;
+          url.searchParams.delete('redirect');
+          var rest = url.searchParams.toString();
+          var next = decodeURIComponent(redirect) + (rest ? ('?' + rest) : '') + url.hash;
+          window.history.replaceState(null, '', next);
+        } catch (e) {
+          // no-op
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0A0A0B" />
@@ -8,9 +25,9 @@
     <meta property="og:title" content="NCD International" />
     <meta property="og:description" content="Architecture and design across two continents." />
     <meta property="og:type" content="website" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
     <title>NCD International — Architecture across two continents</title>
-    <link rel="stylesheet" href="/src/styles/index.css" />
+    <link rel="stylesheet" href="%BASE_URL%src/styles/index.css" />
   </head>
   <body>
     <div id="app">
@@ -22,15 +39,15 @@
       <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
 
       <header class="nav" id="nav">
-        <a class="nav__brand" href="/" data-link>
+        <a class="nav__brand" href="%BASE_URL%" data-link data-route="/">
           <span class="nav__brand-mark">N</span><span class="nav__brand-name">CD International</span>
         </a>
         <nav class="nav__links" aria-label="Primary">
-          <a href="/about" data-link>About</a>
-          <a href="/projects" data-link>Projects</a>
-          <a href="/references" data-link>References</a>
-          <a href="/team" data-link>Team</a>
-          <a href="/contact" data-link>Contact</a>
+          <a href="%BASE_URL%about" data-link data-route="/about">About</a>
+          <a href="%BASE_URL%projects" data-link data-route="/projects">Projects</a>
+          <a href="%BASE_URL%references" data-link data-route="/references">References</a>
+          <a href="%BASE_URL%team" data-link data-route="/team">Team</a>
+          <a href="%BASE_URL%contact" data-link data-route="/contact">Contact</a>
         </nav>
       </header>
 
@@ -43,6 +60,6 @@
       </footer>
     </div>
 
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="%BASE_URL%src/main.ts"></script>
   </body>
 </html>
