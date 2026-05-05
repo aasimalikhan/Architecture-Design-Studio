@@ -7,7 +7,9 @@ export const loadProjects = async (): Promise<ProjectsPayload> => {
   if (cache) return cache;
   if (inFlight) return inFlight;
 
-  inFlight = fetch('/data/projects.json', { cache: 'force-cache' })
+  const url = new URL('data/projects.json', import.meta.env.BASE_URL).toString();
+
+  inFlight = fetch(url, { cache: 'force-cache' })
     .then((r) => {
       if (!r.ok) throw new Error(`projects.json ${r.status}`);
       return r.json() as Promise<ProjectsPayload>;
