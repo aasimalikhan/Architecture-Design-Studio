@@ -1,0 +1,101 @@
+:root {
+  --ink: #0a0a0b;
+  --ink-2: #131316;
+  --paper: #f5f4f0;
+  --paper-2: #ecebe6;
+  --graphite: #2a2a2e;
+  --mist: #c9c7c0;
+  --line: rgba(245, 244, 240, 0.12);
+  --line-strong: rgba(245, 244, 240, 0.28);
+  --accent: #00e5ff;
+  --accent-dim: #007a8c;
+  --accent-glow: 0 0 32px rgba(0, 229, 255, 0.35);
+
+  --bg: var(--ink);
+  --fg: var(--paper);
+  --fg-mute: rgba(245, 244, 240, 0.62);
+  --fg-faint: rgba(245, 244, 240, 0.42);
+
+  /* Single Helvetica-first stack for nav, headings, body, and UI micro type. */
+  --font-helvetica: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: var(--font-helvetica);
+  --font-text: var(--font-helvetica);
+  --font-micro: var(--font-helvetica);
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, 'Courier New', monospace;
+
+  /* modular scale 1.333 from 16px */
+  --fs-micro: 0.75rem;     /* 12 */
+  --fs-meta: 0.8125rem;    /* 13 */
+  --fs-body: 1rem;         /* 16 */
+  --fs-lead: 1.3125rem;    /* 21 */
+  --fs-h6: 1.3125rem;
+  --fs-h5: 1.75rem;        /* 28 */
+  --fs-h4: 2.3125rem;      /* 37 */
+  --fs-h3: 3.0625rem;      /* 49 */
+  --fs-h2: 4.0625rem;      /* 65 */
+  --fs-h1: 5.4375rem;      /* 87 */
+  --fs-display: 7.25rem;   /* 116 */
+
+  --lh-tight: 1.02;
+  --lh-display: 0.94;
+  --lh-snug: 1.18;
+  --lh-body: 1.6;
+
+  --tracking-tight: -0.02em;
+  --tracking-tighter: -0.035em;
+  --tracking-wide: 0.08em;
+  --tracking-meta: 0.18em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+  --space-11: 12rem;
+
+  --gutter: clamp(1rem, 3vw, 2rem);
+  --col: 12;
+
+  --radius-1: 2px;
+  --radius-2: 6px;
+  --radius-3: 14px;
+  --radius-pill: 999px;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
+  --dur-1: 220ms;
+  --dur-2: 420ms;
+  --dur-3: 720ms;
+  --dur-4: 1200ms;
+
+  --z-bg: 0;
+  --z-content: 10;
+  --z-popups: 40;
+  --z-nav: 60;
+  --z-cursor: 90;
+  --z-loader: 100;
+}
+
+[data-theme='light'] {
+  --bg: var(--paper);
+  --fg: var(--ink);
+  --fg-mute: rgba(10, 10, 11, 0.62);
+  --fg-faint: rgba(10, 10, 11, 0.4);
+  --line: rgba(10, 10, 11, 0.12);
+  --line-strong: rgba(10, 10, 11, 0.28);
+}
+
+@media (max-width: 900px) {
+  :root {
+    --fs-display: 3.75rem;
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.75rem;
+    --fs-h4: 1.4rem;
+  }
+}

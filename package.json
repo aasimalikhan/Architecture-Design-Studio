@@ -1,0 +1,38 @@
+{
+  "name": "ncdinternational",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NCD International — futuristic minimalist portfolio. Static SPA: Vite + TS + Three.js + Matter.js + GSAP + Lenis.",
+  "scripts": {
+    "dev": "vite",
+    "images:optimize": "node scripts/optimize-project-images.mjs",
+    "prebuild": "npm run images:optimize && npm run data:projects",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "data:projects": "node scripts/build-projects-json.mjs",
+    "pipeline": "node scripts/ai-pipeline/run.mjs",
+    "fetch:earth": "node scripts/fetch-earth-texture.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "matter-js": "^0.20.0",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "@rollup/pluginutils": "^5.3.0",
+    "@types/matter-js": "^0.19.7",
+    "@types/node": "^25.6.0",
+    "@types/three": "^0.169.0",
+    "esbuild": "^0.28.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.10",
+    "vite-plugin-glsl": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}

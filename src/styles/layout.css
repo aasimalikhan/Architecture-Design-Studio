@@ -1,0 +1,56 @@
+.section {
+  padding: var(--space-10) var(--gutter);
+}
+.section--tight {
+  padding: var(--space-8) var(--gutter);
+}
+.section--bleed {
+  padding: 0;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--gutter);
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .section {
+    padding: var(--space-8) var(--space-4);
+  }
+}
+
+.split-line {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  /* Room for descenders inside the mask (lh-display is tight on parent headings). */
+  padding-bottom: 0.12em;
+}
+.split-line__inner {
+  display: inline-block;
+  transform: translateY(110%);
+  will-change: transform;
+}
+
+.rule {
+  height: 1px;
+  background: var(--line);
+}
+
+/* WebGL hero canvas slot */
+.webgl-stage {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-bg);
+  pointer-events: none;
+}
