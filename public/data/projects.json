@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T11:14:56.017Z",
+  "generatedAt": "2026-05-05T11:54:06.706Z",
   "count": 9,
   "projects": [
     {
@@ -42,89 +42,89 @@
           "value": "2025"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/City%20Gateway/1.jpg",
+      "hero": "/assets/projects/City%20Gateway/1.jpg",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/1-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/1-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/city-gateway/1-w960.webp",
+        "srcset": "/assets/projects-webp/city-gateway/1-w960.webp 960w, /assets/projects-webp/city-gateway/1-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/1.jpg",
+          "base": "/assets/projects/City%20Gateway/1.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/1-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/1-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/1-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/1-w960.webp 960w, /assets/projects-webp/city-gateway/1-w1920.webp 1920w"
           },
           "alt": "City Gateway — 1",
           "caption": "1"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/2.jpg",
+          "base": "/assets/projects/City%20Gateway/2.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/2-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/2-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/2-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/2-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/2-w960.webp 960w, /assets/projects-webp/city-gateway/2-w1920.webp 1920w"
           },
           "alt": "City Gateway — 2",
           "caption": "2"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/3.jpg",
+          "base": "/assets/projects/City%20Gateway/3.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/3-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/3-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/3-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/3-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/3-w960.webp 960w, /assets/projects-webp/city-gateway/3-w1920.webp 1920w"
           },
           "alt": "City Gateway — 3",
           "caption": "3"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/4.jpg",
+          "base": "/assets/projects/City%20Gateway/4.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/4-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/4-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/4-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/4-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/4-w960.webp 960w, /assets/projects-webp/city-gateway/4-w1920.webp 1920w"
           },
           "alt": "City Gateway — 4",
           "caption": "4"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/5.jpg",
+          "base": "/assets/projects/City%20Gateway/5.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/5-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/5-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/5-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/5-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/5-w960.webp 960w, /assets/projects-webp/city-gateway/5-w1920.webp 1920w"
           },
           "alt": "City Gateway — 5",
           "caption": "5"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/6.jpg",
+          "base": "/assets/projects/City%20Gateway/6.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/6-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/6-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/6-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/6-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/6-w960.webp 960w, /assets/projects-webp/city-gateway/6-w1920.webp 1920w"
           },
           "alt": "City Gateway — 6",
           "caption": "6"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/N1.jpg",
+          "base": "/assets/projects/City%20Gateway/N1.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/N1-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/N1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/N1-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/N1-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/N1-w960.webp 960w, /assets/projects-webp/city-gateway/N1-w1920.webp 1920w"
           },
           "alt": "City Gateway — N1",
           "caption": "N1"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/Plaza%201.jpg",
+          "base": "/assets/projects/City%20Gateway/Plaza%201.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/Plaza%201-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/Plaza%201-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/Plaza%201-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/Plaza%201-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/Plaza%201-w960.webp 960w, /assets/projects-webp/city-gateway/Plaza%201-w1920.webp 1920w"
           },
           "alt": "City Gateway — Plaza 1",
           "caption": "Plaza 1"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/City%20Gateway/PLAZA%202.jpg",
+          "base": "/assets/projects/City%20Gateway/PLAZA%202.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/PLAZA%202-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/city-gateway/PLAZA%202-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/city-gateway/PLAZA%202-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/city-gateway/PLAZA%202-w960.webp",
+            "srcset": "/assets/projects-webp/city-gateway/PLAZA%202-w960.webp 960w, /assets/projects-webp/city-gateway/PLAZA%202-w1920.webp 1920w"
           },
           "alt": "City Gateway — PLAZA 2",
           "caption": "PLAZA 2"
@@ -165,107 +165,107 @@
           "value": "6,400 sf"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(1).png",
+      "hero": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(1).png",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp",
+        "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(1).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(1).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(1)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (1)",
           "caption": "5bed Modern Exteriors (1)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(2).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(2).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(2)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(2)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(2)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(2)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(2)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(2)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (2)",
           "caption": "5bed Modern Exteriors (2)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(3).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(3).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(3)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(3)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(3)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(3)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(3)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(3)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (3)",
           "caption": "5bed Modern Exteriors (3)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(4).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(4).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(4)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(4)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(4)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(4)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(4)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(4)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (4)",
           "caption": "5bed Modern Exteriors (4)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(5).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(5).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(5)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(5)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(5)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(5)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(5)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(5)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (5)",
           "caption": "5bed Modern Exteriors (5)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(6).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(6).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(6)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(6)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(6)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(6)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(6)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(6)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (6)",
           "caption": "5bed Modern Exteriors (6)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(7).png",
+          "base": "/assets/projects/Cashiers%20housing/5bed%20Modern%20Exteriors%20(7).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(7)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(7)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(7)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(7)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(7)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5bed%20Modern%20Exteriors%20(7)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5bed Modern Exteriors (7)",
           "caption": "5bed Modern Exteriors (7)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(1).jpg",
+          "base": "/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(1).jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5Bed Modern Interiors (1)",
           "caption": "5Bed Modern Interiors (1)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(1).png",
+          "base": "/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(1).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(1)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5Bed Modern Interiors (1)",
           "caption": "5Bed Modern Interiors (1)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(2).jpg",
+          "base": "/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(2).jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5Bed Modern Interiors (2)",
           "caption": "5Bed Modern Interiors (2)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(2).png",
+          "base": "/assets/projects/Cashiers%20housing/5Bed%20Modern%20Interiors%20(2).png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp",
+            "srcset": "/assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w960.webp 960w, /assets/projects-webp/cashiers-housing/5Bed%20Modern%20Interiors%20(2)-w1920.webp 1920w"
           },
           "alt": "Cashiers Housing — 5Bed Modern Interiors (2)",
           "caption": "5Bed Modern Interiors (2)"
@@ -308,80 +308,80 @@
           "value": "54 ft"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/esx_upscale01.png",
+      "hero": "/assets/projects/Bladen%20Auditorium/esx_upscale01.png",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/esx_upscale01-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp",
+        "srcset": "/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp 960w, /assets/projects-webp/bladen-auditorium/esx_upscale01-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/4F.png",
+          "base": "/assets/projects/Bladen%20Auditorium/4F.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/4F-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/4F-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/4F-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/4F-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/4F-w960.webp 960w, /assets/projects-webp/bladen-auditorium/4F-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — 4F",
           "caption": "4F"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/esx_upscale01.png",
+          "base": "/assets/projects/Bladen%20Auditorium/esx_upscale01.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/esx_upscale01-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/esx_upscale01-w960.webp 960w, /assets/projects-webp/bladen-auditorium/esx_upscale01-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — esx upscale01",
           "caption": "esx upscale01"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/Fog.jpg",
+          "base": "/assets/projects/Bladen%20Auditorium/Fog.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Fog-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Fog-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Fog-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/Fog-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/Fog-w960.webp 960w, /assets/projects-webp/bladen-auditorium/Fog-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — Fog",
           "caption": "Fog"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/Fog(1).jpg",
+          "base": "/assets/projects/Bladen%20Auditorium/Fog(1).jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Fog(1)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Fog(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Fog(1)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/Fog(1)-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/Fog(1)-w960.webp 960w, /assets/projects-webp/bladen-auditorium/Fog(1)-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — Fog(1)",
           "caption": "Fog(1)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/ll.jpg",
+          "base": "/assets/projects/Bladen%20Auditorium/ll.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/ll-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/ll-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/ll-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/ll-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/ll-w960.webp 960w, /assets/projects-webp/bladen-auditorium/ll-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — ll",
           "caption": "ll"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/Scene%207.jpg",
+          "base": "/assets/projects/Bladen%20Auditorium/Scene%207.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%207-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%207-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%207-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/Scene%207-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/Scene%207-w960.webp 960w, /assets/projects-webp/bladen-auditorium/Scene%207-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — Scene 7",
           "caption": "Scene 7"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/Scene%207(1).jpg",
+          "base": "/assets/projects/Bladen%20Auditorium/Scene%207(1).jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%207(1)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%207(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%207(1)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/Scene%207(1)-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/Scene%207(1)-w960.webp 960w, /assets/projects-webp/bladen-auditorium/Scene%207(1)-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — Scene 7(1)",
           "caption": "Scene 7(1)"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Bladen%20Auditorium/Scene%2010(1).jpg",
+          "base": "/assets/projects/Bladen%20Auditorium/Scene%2010(1).jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%2010(1)-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%2010(1)-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/bladen-auditorium/Scene%2010(1)-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/bladen-auditorium/Scene%2010(1)-w960.webp",
+            "srcset": "/assets/projects-webp/bladen-auditorium/Scene%2010(1)-w960.webp 960w, /assets/projects-webp/bladen-auditorium/Scene%2010(1)-w1920.webp 1920w"
           },
           "alt": "Bladen Auditorium — Scene 10(1)",
           "caption": "Scene 10(1)"
@@ -423,197 +423,197 @@
           "value": "4,800 sf"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/1.jpg",
+      "hero": "/assets/projects/Cape%20Fear%20Regional%20Theatre/1.jpg",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/1-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp",
+        "srcset": "/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/1-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/1.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/1.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/1-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/1-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/1-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 1",
           "caption": "1"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/2.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/2.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/2-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/2-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/2-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/2-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/2-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/2-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 2",
           "caption": "2"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/3.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/3.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/3-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/3-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/3-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/3-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/3-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/3-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 3",
           "caption": "3"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/4.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/4.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/4-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/4-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/4-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/4-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/4-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/4-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 4",
           "caption": "4"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/4a.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/4a.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/4a-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/4a-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/4a-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/4a-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/4a-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/4a-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 4a",
           "caption": "4a"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/5.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/5.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/5-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/5-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/5-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/5-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/5-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/5-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 5",
           "caption": "5"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/6.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/6.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/6-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/6-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/6-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/6-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/6-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/6-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 6",
           "caption": "6"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/7.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/7.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/7-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/7-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/7-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/7-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/7-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/7-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 7",
           "caption": "7"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/8.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/8.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/8-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/8-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/8-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/8-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/8-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/8-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 8",
           "caption": "8"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/9.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/9.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/9-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/9-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/9-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/9-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/9-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/9-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — 9",
           "caption": "9"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/CFRT_Rooftop01.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/CFRT_Rooftop01.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop01-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop01-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop01-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop01-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop01-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop01-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — CFRT Rooftop01",
           "caption": "CFRT Rooftop01"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/CFRT_Rooftop02.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/CFRT_Rooftop02.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop02-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop02-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop02-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop02-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop02-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop02-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — CFRT Rooftop02",
           "caption": "CFRT Rooftop02"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/CFRT_Rooftop03.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/CFRT_Rooftop03.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop03-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop03-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop03-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop03-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop03-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/CFRT_Rooftop03-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — CFRT Rooftop03",
           "caption": "CFRT Rooftop03"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_31%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_31%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_31%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_31%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_31%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_31%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_31%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_31%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 31 Photo",
           "caption": "P 31 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_32%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_32%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_32%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_32%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_32%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_32%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_32%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_32%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 32 Photo",
           "caption": "P 32 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_34%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_34%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_34%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_34%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_34%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_34%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_34%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_34%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 34 Photo",
           "caption": "P 34 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_41%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_41%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_41%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_41%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_41%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_41%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_41%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_41%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 41 Photo",
           "caption": "P 41 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_42%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_42%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_42%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_42%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_42%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_42%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_42%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_42%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 42 Photo",
           "caption": "P 42 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_43%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_43%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_43%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_43%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_43%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_43%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_43%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_43%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 43 Photo",
           "caption": "P 43 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/P_44%20-%20Photo.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/P_44%20-%20Photo.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_44%20-%20Photo-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_44%20-%20Photo-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/P_44%20-%20Photo-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/P_44%20-%20Photo-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/P_44%20-%20Photo-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/P_44%20-%20Photo-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — P 44 Photo",
           "caption": "P 44 Photo"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Regional%20Theatre/STUDIO%20-%20EDIT.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Regional%20Theatre/STUDIO%20-%20EDIT.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/STUDIO%20-%20EDIT-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/STUDIO%20-%20EDIT-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-regional-theatre/STUDIO%20-%20EDIT-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-regional-theatre/STUDIO%20-%20EDIT-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-regional-theatre/STUDIO%20-%20EDIT-w960.webp 960w, /assets/projects-webp/cape-fear-regional-theatre/STUDIO%20-%20EDIT-w1920.webp 1920w"
           },
           "alt": "Cape Fear Regional Theatre — STUDIO EDIT",
           "caption": "STUDIO EDIT"
@@ -660,44 +660,44 @@
           "value": "2023"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/214%20burgess%20street/1.jpg",
+      "hero": "/assets/projects/214%20burgess%20street/1.jpg",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/1-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/214-burgess-street/1-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/214-burgess-street/1-w960.webp",
+        "srcset": "/assets/projects-webp/214-burgess-street/1-w960.webp 960w, /assets/projects-webp/214-burgess-street/1-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/214%20burgess%20street/1.jpg",
+          "base": "/assets/projects/214%20burgess%20street/1.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/1-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/214-burgess-street/1-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/214-burgess-street/1-w960.webp",
+            "srcset": "/assets/projects-webp/214-burgess-street/1-w960.webp 960w, /assets/projects-webp/214-burgess-street/1-w1920.webp 1920w"
           },
           "alt": "214 Burgess Street — 1",
           "caption": "1"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/214%20burgess%20street/2.jpg",
+          "base": "/assets/projects/214%20burgess%20street/2.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/2-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/2-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/214-burgess-street/2-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/214-burgess-street/2-w960.webp",
+            "srcset": "/assets/projects-webp/214-burgess-street/2-w960.webp 960w, /assets/projects-webp/214-burgess-street/2-w1920.webp 1920w"
           },
           "alt": "214 Burgess Street — 2",
           "caption": "2"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/214%20burgess%20street/3.jpg",
+          "base": "/assets/projects/214%20burgess%20street/3.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/3-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/3-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/214-burgess-street/3-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/214-burgess-street/3-w960.webp",
+            "srcset": "/assets/projects-webp/214-burgess-street/3-w960.webp 960w, /assets/projects-webp/214-burgess-street/3-w1920.webp 1920w"
           },
           "alt": "214 Burgess Street — 3",
           "caption": "3"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/214%20burgess%20street/5.jpg",
+          "base": "/assets/projects/214%20burgess%20street/5.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/5-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/214-burgess-street/5-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/214-burgess-street/5-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/214-burgess-street/5-w960.webp",
+            "srcset": "/assets/projects-webp/214-burgess-street/5-w960.webp 960w, /assets/projects-webp/214-burgess-street/5-w1920.webp 1920w"
           },
           "alt": "214 Burgess Street — 5",
           "caption": "5"
@@ -739,35 +739,35 @@
           "value": "1,800 ft"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Botanical%20Garden/4.jpg",
+      "hero": "/assets/projects/Cape%20Fear%20Botanical%20Garden/4.jpg",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/4-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp",
+        "srcset": "/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp 960w, /assets/projects-webp/cape-fear-botanical-garden/4-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Botanical%20Garden/4.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Botanical%20Garden/4.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/4-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-botanical-garden/4-w960.webp 960w, /assets/projects-webp/cape-fear-botanical-garden/4-w1920.webp 1920w"
           },
           "alt": "Cape Fear Botanical Garden — 4",
           "caption": "4"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Botanical%20Garden/5.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Botanical%20Garden/5.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/5-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/5-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/5-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-botanical-garden/5-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-botanical-garden/5-w960.webp 960w, /assets/projects-webp/cape-fear-botanical-garden/5-w1920.webp 1920w"
           },
           "alt": "Cape Fear Botanical Garden — 5",
           "caption": "5"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Cape%20Fear%20Botanical%20Garden/6.jpg",
+          "base": "/assets/projects/Cape%20Fear%20Botanical%20Garden/6.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/6-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/6-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/cape-fear-botanical-garden/6-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/cape-fear-botanical-garden/6-w960.webp",
+            "srcset": "/assets/projects-webp/cape-fear-botanical-garden/6-w960.webp 960w, /assets/projects-webp/cape-fear-botanical-garden/6-w1920.webp 1920w"
           },
           "alt": "Cape Fear Botanical Garden — 6",
           "caption": "6"
@@ -804,107 +804,107 @@
           "value": "1,640 sf"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/COVER%20%20PAGE.png",
+      "hero": "/assets/projects/Sagamore%20House/COVER%20%20PAGE.png",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp",
+        "srcset": "/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp 960w, /assets/projects-webp/sagamore-house/COVER%20%20PAGE-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/5FT%20FROM%20THE%20ROAD%20VIEW.png",
+          "base": "/assets/projects/Sagamore%20House/5FT%20FROM%20THE%20ROAD%20VIEW.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/5FT%20FROM%20THE%20ROAD%20VIEW-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/5FT%20FROM%20THE%20ROAD%20VIEW-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/5FT%20FROM%20THE%20ROAD%20VIEW-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/5FT%20FROM%20THE%20ROAD%20VIEW-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/5FT%20FROM%20THE%20ROAD%20VIEW-w960.webp 960w, /assets/projects-webp/sagamore-house/5FT%20FROM%20THE%20ROAD%20VIEW-w1920.webp 1920w"
           },
           "alt": "Sagamore House — 5FT FROM THE ROAD VIEW",
           "caption": "5FT FROM THE ROAD VIEW"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/COVER%20%20PAGE.png",
+          "base": "/assets/projects/Sagamore%20House/COVER%20%20PAGE.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/COVER%20%20PAGE-w960.webp 960w, /assets/projects-webp/sagamore-house/COVER%20%20PAGE-w1920.webp 1920w"
           },
           "alt": "Sagamore House — COVER PAGE",
           "caption": "COVER PAGE"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/ENTRANCE%20STYLISED%20VIEW.png",
+          "base": "/assets/projects/Sagamore%20House/ENTRANCE%20STYLISED%20VIEW.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE%20STYLISED%20VIEW-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE%20STYLISED%20VIEW-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE%20STYLISED%20VIEW-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/ENTRANCE%20STYLISED%20VIEW-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/ENTRANCE%20STYLISED%20VIEW-w960.webp 960w, /assets/projects-webp/sagamore-house/ENTRANCE%20STYLISED%20VIEW-w1920.webp 1920w"
           },
           "alt": "Sagamore House — ENTRANCE STYLISED VIEW",
           "caption": "ENTRANCE STYLISED VIEW"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/ENTRANCE%20VIEW.png",
+          "base": "/assets/projects/Sagamore%20House/ENTRANCE%20VIEW.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE%20VIEW-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE%20VIEW-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE%20VIEW-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/ENTRANCE%20VIEW-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/ENTRANCE%20VIEW-w960.webp 960w, /assets/projects-webp/sagamore-house/ENTRANCE%20VIEW-w1920.webp 1920w"
           },
           "alt": "Sagamore House — ENTRANCE VIEW",
           "caption": "ENTRANCE VIEW"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/ENTRANCE.png",
+          "base": "/assets/projects/Sagamore%20House/ENTRANCE.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/ENTRANCE-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/ENTRANCE-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/ENTRANCE-w960.webp 960w, /assets/projects-webp/sagamore-house/ENTRANCE-w1920.webp 1920w"
           },
           "alt": "Sagamore House — ENTRANCE",
           "caption": "ENTRANCE"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/ISOMETRIC%20VIEW%20NORTH.png",
+          "base": "/assets/projects/Sagamore%20House/ISOMETRIC%20VIEW%20NORTH.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ISOMETRIC%20VIEW%20NORTH-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/ISOMETRIC%20VIEW%20NORTH-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/ISOMETRIC%20VIEW%20NORTH-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/ISOMETRIC%20VIEW%20NORTH-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/ISOMETRIC%20VIEW%20NORTH-w960.webp 960w, /assets/projects-webp/sagamore-house/ISOMETRIC%20VIEW%20NORTH-w1920.webp 1920w"
           },
           "alt": "Sagamore House — ISOMETRIC VIEW NORTH",
           "caption": "ISOMETRIC VIEW NORTH"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/PARKING%20VIEW.png",
+          "base": "/assets/projects/Sagamore%20House/PARKING%20VIEW.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARKING%20VIEW-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARKING%20VIEW-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARKING%20VIEW-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/PARKING%20VIEW-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/PARKING%20VIEW-w960.webp 960w, /assets/projects-webp/sagamore-house/PARKING%20VIEW-w1920.webp 1920w"
           },
           "alt": "Sagamore House — PARKING VIEW",
           "caption": "PARKING VIEW"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/PARTIAL%20NORTH%20EAST%20VIEW.png",
+          "base": "/assets/projects/Sagamore%20House/PARTIAL%20NORTH%20EAST%20VIEW.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20NORTH%20EAST%20VIEW-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20NORTH%20EAST%20VIEW-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20NORTH%20EAST%20VIEW-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/PARTIAL%20NORTH%20EAST%20VIEW-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/PARTIAL%20NORTH%20EAST%20VIEW-w960.webp 960w, /assets/projects-webp/sagamore-house/PARTIAL%20NORTH%20EAST%20VIEW-w1920.webp 1920w"
           },
           "alt": "Sagamore House — PARTIAL NORTH EAST VIEW",
           "caption": "PARTIAL NORTH EAST VIEW"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/PARTIAL%20WEST%20VIEW%2001.png",
+          "base": "/assets/projects/Sagamore%20House/PARTIAL%20WEST%20VIEW%2001.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2001-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2001-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2001-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2001-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2001-w960.webp 960w, /assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2001-w1920.webp 1920w"
           },
           "alt": "Sagamore House — PARTIAL WEST VIEW 01",
           "caption": "PARTIAL WEST VIEW 01"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/PARTIAL%20WEST%20VIEW%2002.png",
+          "base": "/assets/projects/Sagamore%20House/PARTIAL%20WEST%20VIEW%2002.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2002-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2002-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2002-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2002-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2002-w960.webp 960w, /assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2002-w1920.webp 1920w"
           },
           "alt": "Sagamore House — PARTIAL WEST VIEW 02",
           "caption": "PARTIAL WEST VIEW 02"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Sagamore%20House/PARTIAL%20WEST%20VIEW%2003.png",
+          "base": "/assets/projects/Sagamore%20House/PARTIAL%20WEST%20VIEW%2003.png",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2003-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2003-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2003-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2003-w960.webp",
+            "srcset": "/assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2003-w960.webp 960w, /assets/projects-webp/sagamore-house/PARTIAL%20WEST%20VIEW%2003-w1920.webp 1920w"
           },
           "alt": "Sagamore House — PARTIAL WEST VIEW 03",
           "caption": "PARTIAL WEST VIEW 03"
@@ -941,35 +941,35 @@
           "value": "12"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Robeson%20CTEC/RCC%20CTEC_EXT_RENDERING%201.jpg",
+      "hero": "/assets/projects/Robeson%20CTEC/RCC%20CTEC_EXT_RENDERING%201.jpg",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp",
+        "srcset": "/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp 960w, /assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Robeson%20CTEC/Flex.jpg",
+          "base": "/assets/projects/Robeson%20CTEC/Flex.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/Flex-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/Flex-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/robeson-ctec/Flex-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/robeson-ctec/Flex-w960.webp",
+            "srcset": "/assets/projects-webp/robeson-ctec/Flex-w960.webp 960w, /assets/projects-webp/robeson-ctec/Flex-w1920.webp 1920w"
           },
           "alt": "Robeson CTEC — Flex",
           "caption": "Flex"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Robeson%20CTEC/Lobby.jpg",
+          "base": "/assets/projects/Robeson%20CTEC/Lobby.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/Lobby-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/Lobby-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/robeson-ctec/Lobby-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/robeson-ctec/Lobby-w960.webp",
+            "srcset": "/assets/projects-webp/robeson-ctec/Lobby-w960.webp 960w, /assets/projects-webp/robeson-ctec/Lobby-w1920.webp 1920w"
           },
           "alt": "Robeson CTEC — Lobby",
           "caption": "Lobby"
         },
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Robeson%20CTEC/RCC%20CTEC_EXT_RENDERING%201.jpg",
+          "base": "/assets/projects/Robeson%20CTEC/RCC%20CTEC_EXT_RENDERING%201.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp",
+            "srcset": "/assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w960.webp 960w, /assets/projects-webp/robeson-ctec/RCC%20CTEC_EXT_RENDERING%201-w1920.webp 1920w"
           },
           "alt": "Robeson CTEC — RCC CTEC EXT RENDERING 1",
           "caption": "RCC CTEC EXT RENDERING 1"
@@ -1005,17 +1005,17 @@
           "value": "14,800 sf"
         }
       ],
-      "hero": "/Architecture-Design-Studio/assets/projects/Washington%20County%20School%20PK-12/1.jpg",
+      "hero": "/assets/projects/Washington%20County%20School%20PK-12/1.jpg",
       "heroVariants": {
-        "thumb": "/Architecture-Design-Studio/assets/projects-webp/washington-county-school-pk-12/1-w960.webp",
-        "srcset": "/Architecture-Design-Studio/assets/projects-webp/washington-county-school-pk-12/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/washington-county-school-pk-12/1-w1920.webp 1920w"
+        "thumb": "/assets/projects-webp/washington-county-school-pk-12/1-w960.webp",
+        "srcset": "/assets/projects-webp/washington-county-school-pk-12/1-w960.webp 960w, /assets/projects-webp/washington-county-school-pk-12/1-w1920.webp 1920w"
       },
       "renders": [
         {
-          "base": "/Architecture-Design-Studio/assets/projects/Washington%20County%20School%20PK-12/1.jpg",
+          "base": "/assets/projects/Washington%20County%20School%20PK-12/1.jpg",
           "variants": {
-            "thumb": "/Architecture-Design-Studio/assets/projects-webp/washington-county-school-pk-12/1-w960.webp",
-            "srcset": "/Architecture-Design-Studio/assets/projects-webp/washington-county-school-pk-12/1-w960.webp 960w, /Architecture-Design-Studio/assets/projects-webp/washington-county-school-pk-12/1-w1920.webp 1920w"
+            "thumb": "/assets/projects-webp/washington-county-school-pk-12/1-w960.webp",
+            "srcset": "/assets/projects-webp/washington-county-school-pk-12/1-w960.webp 960w, /assets/projects-webp/washington-county-school-pk-12/1-w1920.webp 1920w"
           },
           "alt": "Washington County School — 1",
           "caption": "1"
