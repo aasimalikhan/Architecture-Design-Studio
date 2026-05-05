@@ -42,7 +42,21 @@
         <a class="nav__brand" href="./" data-link data-route="/">
           <span class="nav__brand-mark">N</span><span class="nav__brand-name">CD International</span>
         </a>
-        <nav class="nav__links" aria-label="Primary">
+        <button
+          type="button"
+          class="nav__menu-toggle"
+          id="nav-menu-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav__menu-bars" aria-hidden="true">
+            <span class="nav__menu-bar"></span>
+            <span class="nav__menu-bar"></span>
+            <span class="nav__menu-bar"></span>
+          </span>
+        </button>
+        <nav class="nav__links" id="primary-nav" aria-label="Primary">
           <a href="about" data-link data-route="/about">About</a>
           <a href="projects" data-link data-route="/projects">Projects</a>
           <a href="references" data-link data-route="/references">References</a>
@@ -50,6 +64,7 @@
           <a href="contact" data-link data-route="/contact">Contact</a>
         </nav>
       </header>
+      <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
 
       <main id="main" class="main" tabindex="-1"></main>
 

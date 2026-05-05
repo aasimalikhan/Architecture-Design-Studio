@@ -2,6 +2,7 @@ import './styles/index.css';
 import { startRouter } from '@/router';
 import { startCursor } from '@/ui/cursor';
 import { startSmoothScroll } from '@/motion/scroll';
+import { startNavMobile } from '@/ui/navMobile';
 
 const dismissBoot = () => {
   const boot = document.getElementById('boot-loader');
@@ -16,6 +17,7 @@ const dismissBoot = () => {
 
 const ready = () => {
   startSmoothScroll();
+  startNavMobile();
   startCursor();
   startRouter();
   dismissBoot();

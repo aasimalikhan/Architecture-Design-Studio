@@ -6,7 +6,6 @@ Read this file before editing. It locks decisions so agentic tools (Cursor, Clau
 
 - Build: **Vite 5 + TypeScript (strict)** — no Next.js, no React, no SSR.
 - Renderer: **Three.js (raw)** — no React Three Fiber.
-- 2D physics: **Matter.js**.
 - Animation core: **GSAP 3** (free since 2024) — uses `ScrollTrigger`, `Flip`, `SplitText`.
 - Smooth scroll: **Lenis** (`lenis` package, formerly `@studio-freight/lenis`).
 - Data: **flat-file `public/data/projects.json`** — no backend, no DB.
@@ -25,7 +24,7 @@ src/
   data/loader.ts
   views/{home,about,projects,projectDetail,references,team,contact}.ts
   webgl/{renderer,plane,globeHero}.ts + shaders/*.glsl
-  physics/{world,floatingTags,popupQueue}.ts
+  physics/popupQueue.ts
   motion/{splitReveal,flipDeepDive,scroll}.ts
   ui/{cursor,nav,loader,popupCard}.ts
   styles/{index,tokens,reset,base,layout}.css + pages/*.css

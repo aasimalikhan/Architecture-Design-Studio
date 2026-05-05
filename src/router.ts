@@ -1,5 +1,6 @@
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { scrollToTop } from '@/motion/scroll';
+import { closeMobileNav } from '@/ui/navMobile';
 import { renderHome } from '@/views/home';
 import { renderAbout } from '@/views/about';
 import { renderProjects } from '@/views/projects';
@@ -111,6 +112,7 @@ const transitionIn = (main: HTMLElement) => {
 };
 
 export const navigate = async (path: string, replace = false) => {
+  closeMobileNav();
   const appPath = toAppPath(path);
   const main = document.getElementById('main') as HTMLElement | null;
   if (!main) return;

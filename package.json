@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "NCD International — futuristic minimalist portfolio. Static SPA: Vite + TS + Three.js + Matter.js + GSAP + Lenis.",
+  "description": "NCD International — futuristic minimalist portfolio. Static SPA: Vite + TS + Three.js + GSAP + Lenis.",
   "scripts": {
     "dev": "vite",
     "images:optimize": "node scripts/optimize-project-images.mjs",
@@ -18,13 +18,11 @@
   "dependencies": {
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",
-    "matter-js": "^0.20.0",
     "three": "^0.169.0"
   },
   "devDependencies": {
     "sharp": "^0.33.5",
     "@rollup/pluginutils": "^5.3.0",
-    "@types/matter-js": "^0.19.7",
     "@types/node": "^25.6.0",
     "@types/three": "^0.169.0",
     "esbuild": "^0.28.0",

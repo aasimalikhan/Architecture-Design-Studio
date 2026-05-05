@@ -27,7 +27,6 @@ export default defineConfig(() => {
           manualChunks: {
             three: ['three'],
             gsap: ['gsap'],
-            matter: ['matter-js'],
             lenis: ['lenis'],
           },
         },

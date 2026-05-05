@@ -1,31 +1,39 @@
 .contact-page {
-  min-height: 100vh;
-  min-height: 100svh;
-  padding: calc(var(--space-8) + 3rem) var(--gutter) var(--space-10);
+  box-sizing: border-box;
+  max-width: 72rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: calc(var(--space-7) + 2.75rem) var(--gutter) var(--space-8);
+  padding-bottom: calc(var(--space-8) + env(safe-area-inset-bottom, 0));
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 
 .contact-head {
-  margin-bottom: var(--space-9);
+  margin-bottom: var(--space-7);
   padding-bottom: var(--space-5);
   border-bottom: 1px solid var(--line);
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: var(--space-6);
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-5) var(--space-6);
   align-items: start;
 }
 .contact-head h1 {
-  font-size: var(--fs-h1);
+  font-size: clamp(2rem, 4.2vw + 1rem, var(--fs-h1));
   letter-spacing: -0.035em;
   line-height: var(--lh-snug);
-  max-width: 18ch;
+  max-width: 14ch;
 }
 .contact-head__email {
   font-family: var(--font-display);
-  font-size: var(--fs-h5);
+  font-size: clamp(1rem, 1.5vw + 0.65rem, var(--fs-h5));
   letter-spacing: -0.01em;
   color: var(--accent);
+  text-align: right;
+  max-width: min(100%, 22rem);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 .contact-head__email:hover {
   text-decoration: underline;
@@ -34,16 +42,16 @@
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
-  flex: 1;
 }
 .contact-office {
-  padding: var(--space-7) var(--space-7) var(--space-7) 0;
+  padding: var(--space-6) var(--space-6) var(--space-6) 0;
+  min-width: 0;
 }
 .contact-office + .contact-office {
   border-left: 1px solid var(--line);
-  padding-left: var(--space-7);
+  padding-left: var(--space-6);
 }
 .contact-office__country {
   font-family: var(--font-micro);
@@ -51,33 +59,51 @@
   letter-spacing: var(--tracking-meta);
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
 }
 .contact-office__name {
   font-family: var(--font-display);
-  font-size: var(--fs-h3);
+  font-size: clamp(1.35rem, 2vw + 0.75rem, var(--fs-h3));
   letter-spacing: -0.025em;
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
+  line-height: var(--lh-snug);
 }
 .contact-office__addr {
   font-style: normal;
   color: var(--fg-mute);
-  font-size: var(--fs-lead);
-  line-height: 1.5;
-  margin-bottom: var(--space-5);
+  font-size: clamp(var(--fs-body), 1vw + 0.85rem, var(--fs-lead));
+  line-height: 1.45;
+  margin-bottom: var(--space-4);
 }
 .contact-office__phone {
   font-family: var(--font-micro);
-  font-size: var(--fs-lead);
+  font-size: clamp(var(--fs-body), 0.8vw + 0.82rem, var(--fs-lead));
   letter-spacing: 0.04em;
   color: var(--fg);
   font-variant-numeric: tabular-nums;
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 .contact-office__phone:hover {
   color: var(--accent);
 }
 
 @media (max-width: 900px) {
+  .contact-page {
+    padding: calc(var(--space-6) + 2.5rem) var(--gutter) var(--space-7);
+  }
+  .contact-head {
+    margin-bottom: var(--space-6);
+    gap: var(--space-4);
+  }
+  .contact-head h1 {
+    max-width: none;
+  }
+  .contact-head__email {
+    text-align: left;
+    max-width: none;
+  }
   .contact-grid {
     grid-template-columns: 1fr;
   }
@@ -85,10 +111,41 @@
     border-left: 0;
     border-top: 1px solid var(--line);
     padding-left: 0;
-    padding-top: var(--space-7);
-    margin-top: var(--space-3);
+    padding-top: var(--space-5);
+    margin-top: 0;
   }
   .contact-office {
-    padding: 0 0 var(--space-7) 0;
+    padding: var(--space-4) 0 var(--space-5) 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .contact-page {
+    padding: calc(var(--space-5) + 3.25rem) var(--space-4) calc(var(--space-6) + env(safe-area-inset-bottom, 0));
+  }
+  .contact-head {
+    grid-template-columns: 1fr;
+    margin-bottom: var(--space-5);
+    padding-bottom: var(--space-4);
+  }
+  .contact-head h1 {
+    font-size: clamp(1.65rem, 7vw, 2.35rem);
+  }
+  .contact-head__email {
+    font-size: 1.05rem;
+  }
+  .contact-office__country {
+    margin-bottom: var(--space-1);
+  }
+  .contact-office__name {
+    font-size: 1.2rem;
+    margin-bottom: var(--space-3);
+  }
+  .contact-office__addr {
+    font-size: var(--fs-body);
+    margin-bottom: var(--space-3);
+  }
+  .contact-office__phone {
+    font-size: var(--fs-body);
   }
 }

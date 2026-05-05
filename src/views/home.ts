@@ -1,7 +1,6 @@
 import type { RouteContext } from '@/router';
 import { loadProjects } from '@/data/loader';
 import {
-  floatingTagsFromProjectLocations,
   globeLegendSites,
   globePinsFromProjects,
 } from '@/data/projectLocations';
@@ -9,7 +8,6 @@ import { projectTypologyLine } from '@/data/projectUi';
 import { mountGlobeHero } from '@/webgl/globeHero';
 import { mountTagsStageField } from '@/webgl/tagsStageField';
 import { mountHeroCarousel } from '@/motion/heroCarousel';
-import { mountFloatingTags } from '@/physics/floatingTags';
 import { animateHero, splitReveal } from '@/motion/splitReveal';
 import { isMobile } from '@/store';
 import { rasterPictureHtml } from '@/ui/projectPicture';
@@ -18,9 +16,9 @@ export const renderHome = async ({ main }: RouteContext) => {
   const { projects } = await loadProjects();
   const featured = projects.slice(0, 4);
   const carouselSlides = projects.slice(0, 5);
-  const globePins = globePinsFromProjects(projects);
-  const locationTags = floatingTagsFromProjectLocations(projects);
-  const legendSites = globeLegendSites(projects);
+  const showGlobe = !isMobile();
+  const globePins = showGlobe ? globePinsFromProjects(projects) : [];
+  const legendSites = showGlobe ? globeLegendSites(projects) : [];
   const legendPinsHtml = legendSites
     .map(
       (site, idx) => `
@@ -61,12 +59,17 @@ export const renderHome = async ({ main }: RouteContext) => {
       </div>
       <div class="home-hero__veil" aria-hidden="true"></div>
 
+      ${
+        showGlobe
+          ? `
       <div class="home-hero__globe-panel" aria-label="Portfolio on the globe">
         <div class="home-hero__globe-host" id="hero-globe-host"></div>
         <div class="home-hero__globe-legend">
           ${legendPinsHtml}
         </div>
-      </div>
+      </div>`
+          : ''
+      }
 
       <div class="home-hero__content">
         <h1 class="home-hero__title" data-split="lines">
@@ -86,7 +89,6 @@ export const renderHome = async ({ main }: RouteContext) => {
         Master planning, civic, cultural,<br>
         residential <em>&mdash;</em> at every scale.
       </div>
-      <div id="tags-web-host" class="tags-web-host" aria-hidden="true"></div>
     </section>
 
     <section class="featured" aria-labelledby="featured-heading">
@@ -147,12 +149,6 @@ export const renderHome = async ({ main }: RouteContext) => {
     ? mountTagsStageField(tagsStageField, tagsFieldTexture ?? undefined)
     : null;
 
-  const tagsHost = main.querySelector<HTMLElement>('#tags-web-host');
-  const cleanupTags =
-    tagsHost && !isMobile() && locationTags.length > 0
-      ? mountFloatingTags(tagsHost, locationTags)
-      : null;
-
   const carouselRoot = main.querySelector<HTMLElement>('#hero-carousel');
   const cleanupCarousel =
     carouselRoot && carouselSlides.length > 0
@@ -168,11 +164,11 @@ export const renderHome = async ({ main }: RouteContext) => {
       : null;
 
   const globeHost = main.querySelector<HTMLElement>('#hero-globe-host');
-  const cleanupGlobe = globeHost ? mountGlobeHero(globeHost, globePins) : null;
+  const cleanupGlobe =
+    showGlobe && globeHost ? mountGlobeHero(globeHost, globePins) : null;
 
   return () => {
     cleanupTagsField?.();
-    cleanupTags?.();
     cleanupCarousel?.();
     cleanupGlobe?.();
   };

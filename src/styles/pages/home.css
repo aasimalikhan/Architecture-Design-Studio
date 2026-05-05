@@ -283,6 +283,13 @@
   }
 }
 
+/* Globe is omitted in JS when isMobile(); keep in sync for resize / no-JS fallbacks. */
+@media (max-width: 767px), (pointer: coarse) {
+  .home-hero__globe-panel {
+    display: none;
+  }
+}
+
 @media (max-width: 900px) {
   .home-hero__globe-panel {
     right: auto;
@@ -311,12 +318,18 @@
   .home-hero__slide-cta {
     left: var(--space-4);
     right: var(--space-4);
-    bottom: calc(4.5rem + min(220px, 58vw) + var(--space-5));
+    bottom: var(--space-7);
     max-width: none;
   }
 }
 
-/* Physics tags + WebGL relief field */
+@media (max-width: 900px) and (min-width: 768px) and (pointer: fine) {
+  .home-hero__slide-cta {
+    bottom: calc(4.5rem + min(220px, 58vw) + var(--space-5));
+  }
+}
+
+/* WebGL relief field + typology headline */
 .tags-stage {
   position: relative;
   width: 100%;
@@ -367,54 +380,6 @@
   text-shadow:
     0 0 24px rgba(0, 229, 255, 0.22),
     0 4px 32px rgba(0, 0, 0, 0.75);
-}
-.tags-web-host {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-.tags-stage .tag-body {
-  position: absolute;
-  pointer-events: auto;
-  cursor: grab;
-  padding: 0.55em 1.25em;
-  border: 1px solid rgba(0, 229, 255, 0.22);
-  background: rgba(6, 7, 9, 0.58);
-  backdrop-filter: blur(16px) saturate(118%);
-  -webkit-backdrop-filter: blur(16px) saturate(118%);
-  border-radius: var(--radius-pill);
-  font-family: var(--font-micro);
-  font-size: var(--fs-meta);
-  letter-spacing: var(--tracking-meta);
-  text-transform: uppercase;
-  color: var(--fg);
-  white-space: nowrap;
-  user-select: none;
-  will-change: transform;
-  box-shadow:
-    0 0 28px rgba(0, 229, 255, 0.05),
-    inset 0 1px 0 rgba(245, 244, 240, 0.06);
-  transition:
-    border-color var(--dur-2) var(--ease-out-expo),
-    box-shadow var(--dur-2) var(--ease-out-expo),
-    transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.tags-stage .tag-body:hover {
-  border-color: rgba(0, 229, 255, 0.45);
-  box-shadow:
-    0 0 40px rgba(0, 229, 255, 0.1),
-    inset 0 1px 0 rgba(245, 244, 240, 0.1);
-}
-.tags-stage .tag-body:active {
-  cursor: grabbing;
-}
-.tags-stage .tag-body--accent {
-  border-color: rgba(0, 229, 255, 0.55);
-  color: var(--accent);
-  background: rgba(0, 229, 255, 0.09);
-  box-shadow:
-    0 0 36px rgba(0, 229, 255, 0.14),
-    inset 0 0 20px rgba(0, 229, 255, 0.04);
 }
 
 /* Featured ribbon */
