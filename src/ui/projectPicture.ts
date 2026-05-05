@@ -1,4 +1,5 @@
 import type { RasterVariants } from '@/types/project';
+import { publicSrcset, publicUrl } from '@/util/publicUrl';
 
 const escAttr = (s: string): string =>
   s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
@@ -28,7 +29,7 @@ export const rasterPictureHtml = (opts: RasterPictureOpts): string => {
 
   const v = opts.variants;
   if (v?.thumb && v?.srcset) {
-    return `<picture${cls}><source type="image/webp" srcset="${escAttr(v.srcset)}" sizes="${sizes}" /><img src="${escAttr(v.thumb)}" alt="${alt}" loading="${loading}" decoding="async"${fp} /></picture>`;
+    return `<picture${cls}><source type="image/webp" srcset="${escAttr(publicSrcset(v.srcset))}" sizes="${sizes}" /><img src="${escAttr(publicUrl(v.thumb))}" alt="${alt}" loading="${loading}" decoding="async"${fp} /></picture>`;
   }
-  return `<img src="${escAttr(opts.fallbackUrl)}" alt="${alt}" loading="${loading}" decoding="async"${fp}${cls} />`;
+  return `<img src="${escAttr(publicUrl(opts.fallbackUrl))}" alt="${alt}" loading="${loading}" decoding="async"${fp}${cls} />`;
 };

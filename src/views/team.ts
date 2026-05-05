@@ -1,5 +1,6 @@
 import type { RouteContext } from '@/router';
 import { splitReveal } from '@/motion/splitReveal';
+import { publicUrl } from '@/util/publicUrl';
 
 type Member = { name: string; role: string; photo: string };
 
@@ -27,7 +28,7 @@ export const renderTeam = async ({ main }: RouteContext) => {
         ${TEAM.map(
           (m) => `
           <article class="team-card" data-reveal data-magnetic>
-            <img src="${m.photo}" alt="${m.name}" loading="lazy" />
+            <img src="${publicUrl(m.photo)}" alt="${m.name}" loading="lazy" />
             <div class="team-card__meta">
               <div class="team-card__name">${m.name}</div>
               <div class="team-card__role">${m.role}</div>

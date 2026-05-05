@@ -32,8 +32,8 @@ jobs:
 
       - name: Build
         env:
-          # For project Pages URLs like https://<user>.github.io/<repo>/
-          VITE_BASE: /Architecture-Design-Studio/
+          # Must match GitHub Pages project URL: https://<user>.github.io/<repo>/
+          VITE_BASE: /${{ github.event.repository.name }}/
         run: npm run build
 
       - name: Slim down artifact (keep WebP only)

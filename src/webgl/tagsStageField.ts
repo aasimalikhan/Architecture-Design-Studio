@@ -1,12 +1,6 @@
 import * as THREE from 'three';
 import { env, isMobile } from '@/store';
-
-const withBase = (p: string) => {
-  const base = import.meta.env.BASE_URL || '/';
-  const absBase = new URL(base, window.location.origin);
-  const path = p.startsWith('/') ? p.slice(1) : p;
-  return new URL(path, absBase).pathname;
-};
+import { publicUrl } from '@/util/publicUrl';
 
 type Uniforms = {
   uTime: { value: number };
@@ -217,7 +211,7 @@ export const mountTagsStageField = (host: HTMLElement, imageUrl?: string) => {
   if (imageUrl) {
     const loader = new THREE.TextureLoader();
     loader.load(
-      withBase(imageUrl),
+      publicUrl(imageUrl),
       (tex) => {
         tex.colorSpace = THREE.SRGBColorSpace;
         tex.wrapS = tex.wrapT = THREE.ClampToEdgeWrapping;

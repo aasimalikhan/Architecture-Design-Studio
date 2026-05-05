@@ -1,12 +1,13 @@
 import type { RouteContext } from '@/router';
 import { splitReveal } from '@/motion/splitReveal';
+import { publicUrl } from '@/util/publicUrl';
 
 export const renderAbout = async ({ main }: RouteContext) => {
   main.innerHTML = `
     <article class="about-page">
       <section class="about-hero">
         <div class="about-hero__media">
-          <img src="/assets/about/HashimNaqui.jpg" alt="Hashim Naqui" />
+          <img src="${publicUrl('assets/about/HashimNaqui.jpg')}" alt="Hashim Naqui" />
         </div>
         <div class="about-hero__intro">
           <div class="eyebrow">About &middot; Hashim Naqui</div>

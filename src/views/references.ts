@@ -1,5 +1,6 @@
 import type { RouteContext } from '@/router';
 import { splitReveal } from '@/motion/splitReveal';
+import { publicUrl } from '@/util/publicUrl';
 
 type Ref = {
   name: string;
@@ -54,7 +55,7 @@ export const renderReferences = async ({ main }: RouteContext) => {
         (r) => `
         <article class="reference-card" data-reveal>
           <div class="reference-card__photo">
-            <img src="${r.photo}" alt="${r.name}" loading="lazy" />
+            <img src="${publicUrl(r.photo)}" alt="${r.name}" loading="lazy" />
           </div>
           <div>
             <h2 class="reference-card__name">${r.name}</h2>

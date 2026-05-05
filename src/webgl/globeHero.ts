@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { env, isMobile } from '@/store';
+import { publicUrl } from '@/util/publicUrl';
 
 export type GlobeProjectPin = { lat: number; lon: number };
 
@@ -59,14 +60,8 @@ const makeFallbackEarthTexture = (): THREE.CanvasTexture => {
   return tex;
 };
 
-const withBase = (p: string) => {
-  const base = import.meta.env.BASE_URL || '/';
-  const absBase = new URL(base, window.location.origin);
-  return new URL(p, absBase).pathname;
-};
-
-const EARTH_WEBP = withBase('assets/ui/earth-hero-1024.webp');
-const EARTH_JPG = withBase('assets/ui/earth-atmos-2048.jpg');
+const EARTH_WEBP = publicUrl('assets/ui/earth-hero-1024.webp');
+const EARTH_JPG = publicUrl('assets/ui/earth-atmos-2048.jpg');
 
 export const mountGlobeHero = (host: HTMLElement, pins: GlobeProjectPin[]) => {
   if (env.reduced) {
