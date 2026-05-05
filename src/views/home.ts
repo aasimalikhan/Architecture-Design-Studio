@@ -2,11 +2,12 @@ import type { RouteContext } from '@/router';
 import { loadProjects } from '@/data/loader';
 import {
   floatingTagsFromProjectLocations,
-  formatLatLonLine,
   globeLegendSites,
   globePinsFromProjects,
 } from '@/data/projectLocations';
+import { projectTypologyLine } from '@/data/projectUi';
 import { mountGlobeHero } from '@/webgl/globeHero';
+import { mountTagsStageField } from '@/webgl/tagsStageField';
 import { mountHeroCarousel } from '@/motion/heroCarousel';
 import { mountFloatingTags } from '@/physics/floatingTags';
 import { animateHero, splitReveal } from '@/motion/splitReveal';
@@ -28,8 +29,7 @@ export const renderHome = async ({ main }: RouteContext) => {
               idx % 4 === 1 ? ' home-hero__globe-dot--accent' : ''
             }" aria-hidden="true"></span>
             <div>
-              <strong>${site.city}</strong>
-              <span>${formatLatLonLine(site.lat, site.lon)}</span>
+              <strong>${site.title}</strong>
             </div>
           </div>`
     )
@@ -53,7 +53,7 @@ export const renderHome = async ({ main }: RouteContext) => {
           <a class="home-hero__slide-cta" href="/projects/${p.slug}" data-link data-magnetic>
             <span class="home-hero__slide-eyebrow">Featured</span>
             <span class="home-hero__slide-title">${p.title}</span>
-            <span class="home-hero__slide-meta">${p.location.city}, ${p.location.state}</span>
+            <span class="home-hero__slide-meta">${projectTypologyLine(p)}</span>
           </a>
         </div>`
           )
@@ -61,7 +61,7 @@ export const renderHome = async ({ main }: RouteContext) => {
       </div>
       <div class="home-hero__veil" aria-hidden="true"></div>
 
-      <div class="home-hero__globe-panel" aria-label="Project sites on Earth">
+      <div class="home-hero__globe-panel" aria-label="Portfolio on the globe">
         <div class="home-hero__globe-host" id="hero-globe-host"></div>
         <div class="home-hero__globe-legend">
           ${legendPinsHtml}
@@ -70,21 +70,21 @@ export const renderHome = async ({ main }: RouteContext) => {
 
       <div class="home-hero__content">
         <h1 class="home-hero__title" data-split="lines">
-          Architecture<br>across two<br><em>continents.</em>
+          Civic, cultural<br>&amp; residential<br><em>architecture.</em>
         </h1>
         <p class="home-hero__lede" data-reveal>
-          NCD International is a design studio working between Raleigh, North
-          Carolina and Banjara Hills, Hyderabad &mdash; building civic, cultural,
-          and residential spaces with restraint, precision, and care.
+          NCD International is a design studio for civic, cultural, and
+          residential work &mdash; approached with restraint, precision, and care.
         </p>
       </div>
       <div class="home-hero__scroll">Scroll</div>
     </section>
 
-    <section class="tags-stage" id="tags-stage" aria-label="Project locations">
+    <section class="tags-stage" id="tags-stage" aria-label="Project typologies">
+      <div class="tags-stage__field" id="tags-stage-field" aria-hidden="true"></div>
       <div class="tags-stage__heading">
         Master planning, civic, cultural,<br>
-        residential <em>&mdash;</em> across continents.
+        residential <em>&mdash;</em> at every scale.
       </div>
       <div id="tags-web-host" class="tags-web-host" aria-hidden="true"></div>
     </section>
@@ -109,7 +109,7 @@ export const renderHome = async ({ main }: RouteContext) => {
             <div class="featured__card-meta">
               <div>
                 <div class="featured__card-title">${p.title}</div>
-                <div class="meta">${p.location.city}, ${p.location.state}</div>
+                <div class="meta">${projectTypologyLine(p)}</div>
               </div>
               <div class="meta">${String(i + 1).padStart(2, '0')} / ${String(featured.length).padStart(2, '0')}</div>
             </div>
@@ -140,6 +140,13 @@ export const renderHome = async ({ main }: RouteContext) => {
   animateHero(main);
   splitReveal(main);
 
+  const tagsStageField = main.querySelector<HTMLElement>('#tags-stage-field');
+  const tagsFieldTexture =
+    carouselSlides[0]?.heroVariants?.thumb ?? carouselSlides[0]?.hero;
+  const cleanupTagsField = tagsStageField
+    ? mountTagsStageField(tagsStageField, tagsFieldTexture ?? undefined)
+    : null;
+
   const tagsHost = main.querySelector<HTMLElement>('#tags-web-host');
   const cleanupTags =
     tagsHost && !isMobile() && locationTags.length > 0
@@ -164,6 +171,7 @@ export const renderHome = async ({ main }: RouteContext) => {
   const cleanupGlobe = globeHost ? mountGlobeHero(globeHost, globePins) : null;
 
   return () => {
+    cleanupTagsField?.();
     cleanupTags?.();
     cleanupCarousel?.();
     cleanupGlobe?.();

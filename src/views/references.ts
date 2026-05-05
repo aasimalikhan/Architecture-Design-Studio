@@ -48,7 +48,6 @@ export const renderReferences = async ({ main }: RouteContext) => {
     <section class="references-page">
       <header class="references-head">
         <h1 data-split="lines">References<br>&amp; voices.</h1>
-        <p class="meta">Selected words from clients and collaborators &mdash; spanning healthcare, civic, and residential commissions across two continents.</p>
       </header>
 
       ${REFERENCES.map(

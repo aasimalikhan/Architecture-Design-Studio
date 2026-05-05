@@ -29,19 +29,6 @@
   }
 }
 
-.split-line {
-  display: inline-block;
-  overflow: hidden;
-  vertical-align: top;
-  /* Room for descenders inside the mask (lh-display is tight on parent headings). */
-  padding-bottom: 0.12em;
-}
-.split-line__inner {
-  display: inline-block;
-  transform: translateY(110%);
-  will-change: transform;
-}
-
 .rule {
   height: 1px;
   background: var(--line);

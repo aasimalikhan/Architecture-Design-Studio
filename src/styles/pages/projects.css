@@ -16,7 +16,6 @@
   font-size: clamp(2.85rem, 7.5vw, var(--fs-display));
   letter-spacing: var(--tracking-tighter);
   font-weight: 500;
-  /* Match team split-line treatment so descenders are not clipped. */
   line-height: var(--lh-snug);
   max-width: 12ch;
   min-width: 0;

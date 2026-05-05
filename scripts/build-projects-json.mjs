@@ -37,12 +37,12 @@ const OVERRIDES = {
     location: { city: 'Fayetteville', state: 'NC', country: 'USA' },
     coordinates: [35.0527, -78.8784],
     year: 2023,
-    client: 'Arts Council of Fayetteville',
+    client: 'Regional arts council',
     category: ['Cultural'],
     summary:
       'A multi-use arts venue housing rehearsal halls, conference rooms, and a singular open-air auditorium.',
     body: [
-      'A cultural anchor on Fayetteville’s historic Burgess Street, the building reorganises a deep urban lot around a central, sky-open auditorium — a quiet civic room held by brick, light, and air.',
+      'A cultural anchor on a storied civic street—the building reorganises a deep urban lot around a central, sky-open auditorium — a quiet civic room held by brick, light, and air.',
       'Programming threads vertically: rehearsal volumes overlook the courtyard, conference rooms tuck into the street wall, and a rooftop terrace returns the audience to the city after a performance.',
     ],
     metrics: [
@@ -129,7 +129,7 @@ const OVERRIDES = {
     year: 2025,
     category: ['Civic', 'Master Plan'],
     summary:
-      'A ten-storey, energy-positive civic gateway anchoring an urban edge in Raleigh.',
+      'A ten-storey, energy-positive civic gateway anchoring a dense urban edge.',
     body: [
       'City Gateway is conceived as a building that gives back — engineered to produce more renewable energy across a year than it consumes.',
       'A K-8 charter school occupies the lower volumes, with workplace and civic floors stacked above. A continuous public plaza weaves through the base and threads the campus to the surrounding street grid.',

@@ -20,7 +20,7 @@ export const renderTeam = async ({ main }: RouteContext) => {
   main.innerHTML = `
     <section class="team-page">
       <header class="team-head">
-        <h1 data-split="lines">The team.<br>Hyderabad &amp; Raleigh.</h1>
+        <h1 data-split="lines">The team.<br>Architects &amp; collaborators.</h1>
         <div class="team-head__count">${String(TEAM.length).padStart(2, '0')} architects</div>
       </header>
       <div class="team-grid">

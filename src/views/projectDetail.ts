@@ -1,5 +1,6 @@
 import type { RouteContext } from '@/router';
 import { findProject, adjacentProjects } from '@/data/loader';
+import { projectTypologyLine } from '@/data/projectUi';
 import { splitReveal } from '@/motion/splitReveal';
 import { mountCarousel } from '@/webgl/carousel';
 import { schedulePopupsForProject } from '@/physics/popupQueue';
@@ -36,11 +37,10 @@ export const renderProjectDetail = async ({ main, params }: RouteContext) => {
           </div>
           <div class="project-hero__loc">
             <dl>
-              <dt>Location</dt>
-              <dd>${project.location.city}, ${project.location.state}</dd>
+              <dt>Type</dt>
+              <dd>${project.category.join(' / ')}</dd>
               ${project.year ? `<dt>Year</dt><dd>${project.year}</dd>` : ''}
               ${project.client ? `<dt>Client</dt><dd>${project.client}</dd>` : ''}
-              ${project.coordinates ? `<dt>Coords</dt><dd>${project.coordinates[0].toFixed(4)}&deg; / ${project.coordinates[1].toFixed(4)}&deg;</dd>` : ''}
             </dl>
           </div>
         </div>
@@ -82,7 +82,7 @@ export const renderProjectDetail = async ({ main, params }: RouteContext) => {
             ? `<a class="prev" href="/projects/${prev.slug}" data-link data-magnetic>
                 <div class="eyebrow">Previous</div>
                 <div class="project-adjacent__title">${prev.title}</div>
-                <div class="meta">${prev.location.city}, ${prev.location.state}</div>
+                <div class="meta">${projectTypologyLine(prev)}</div>
               </a>`
             : '<span></span>'
         }
@@ -91,7 +91,7 @@ export const renderProjectDetail = async ({ main, params }: RouteContext) => {
             ? `<a class="next" href="/projects/${next.slug}" data-link data-magnetic>
                 <div class="eyebrow">Next</div>
                 <div class="project-adjacent__title">${next.title}</div>
-                <div class="meta">${next.location.city}, ${next.location.state}</div>
+                <div class="meta">${projectTypologyLine(next)}</div>
               </a>`
             : '<span></span>'
         }

@@ -45,7 +45,7 @@
 
 .about-hero__title {
   font-size: clamp(2rem, 4.2vw, 3.25rem);
-  line-height: 1.02;
+  line-height: var(--lh-snug);
   letter-spacing: var(--tracking-tighter);
   max-width: 18ch;
 }

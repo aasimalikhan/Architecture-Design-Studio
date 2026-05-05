@@ -13,6 +13,7 @@
 .references-head h1 {
   font-size: var(--fs-h1);
   letter-spacing: -0.035em;
+  line-height: var(--lh-snug);
   max-width: 16ch;
 }
 .references-head p {

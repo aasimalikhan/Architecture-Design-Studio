@@ -14,7 +14,6 @@
   font-size: var(--fs-h1);
   letter-spacing: -0.035em;
   max-width: 16ch;
-  /* Split-line masks use overflow: hidden; lh-display clips descenders (y, g, &). */
   line-height: var(--lh-snug);
 }
 .team-head__count {

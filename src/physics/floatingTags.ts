@@ -3,19 +3,38 @@ import { env } from '@/store';
 
 export type FloatingTagDescriptor = { label: string; accent?: boolean };
 
-/** Even two-row layout: readable band behind the heading, not random scatter. */
-const anchorForIndex = (i: number, n: number, stageW: number, stageH: number) => {
-  const padX = Math.min(56, stageW * 0.08);
-  const padY = Math.min(48, stageH * 0.1);
-  const innerW = Math.max(80, stageW - 2 * padX);
-  const topRow = Math.ceil(n / 2);
-  const row = i < topRow ? 0 : 1;
-  const colInRow = row === 0 ? i : i - topRow;
-  const countInRow = row === 0 ? topRow : n - topRow;
-  const slot = (colInRow + 0.5) / countInRow;
-  const x = padX + slot * innerW;
-  const y = row === 0 ? padY + stageH * 0.2 : padY + stageH * 0.52;
-  return { x, y };
+/**
+ * Perimeter slots so springs keep chips off the centred `.tags-stage__heading` copy
+ * (nothing anchored in the interior band where the headline sits).
+ */
+const perimeterAnchors = (stageW: number, stageH: number) => {
+  const mx = Math.min(48, stageW * 0.07);
+  const my = Math.min(40, stageH * 0.08);
+  const ix = Math.max(56, stageW - 2 * mx);
+  const iy = Math.max(48, stageH - 2 * my);
+  const xr = [0.08, 0.92, 0.06, 0.94, 0.16, 0.84];
+  const yrUpper = [0.12, 0.12, 0.24, 0.24, 0.06, 0.06];
+  const yrLower = [0.88, 0.88, 0.76, 0.76, 0.94, 0.94];
+
+  const toPx = (xrn: number, yrn: number) => ({
+    x: mx + xrn * ix,
+    y: my + yrn * iy,
+  });
+
+  const slots: { x: number; y: number }[] = [];
+  for (let i = 0; i < xr.length; i += 1) {
+    slots.push(toPx(xr[i]!, yrUpper[i]!));
+    slots.push(toPx(xr[i]!, yrLower[i]!));
+  }
+  return slots;
+};
+
+const anchorForIndex = (i: number, _n: number, stageW: number, stageH: number) => {
+  const slots = perimeterAnchors(stageW, stageH);
+  if (slots.length === 0) {
+    return { x: stageW * 0.5, y: stageH * 0.15 };
+  }
+  return slots[i % slots.length]!;
 };
 
 type TagItem = {

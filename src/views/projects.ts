@@ -1,5 +1,6 @@
 import type { RouteContext } from '@/router';
 import { loadProjects } from '@/data/loader';
+import { projectTypologyLine } from '@/data/projectUi';
 import { splitReveal } from '@/motion/splitReveal';
 import { attachLightSweep } from '@/ui/cursor';
 import { rasterPictureHtml } from '@/ui/projectPicture';
@@ -22,7 +23,7 @@ export const renderProjects = async ({ main }: RouteContext) => {
   main.innerHTML = `
     <section class="projects-page">
       <header class="projects-head">
-        <h1 class="projects-head__title" data-split="lines">All projects.<br>Two continents.</h1>
+        <h1 class="projects-head__title" data-split="lines">All projects.<br>Selected work.</h1>
         <div class="projects-head__count">${String(projects.length).padStart(2, '0')} works &middot; 2018&mdash;present</div>
       </header>
       <h2 class="projects-grid-heading">Project index</h2>
@@ -46,7 +47,7 @@ export const renderProjects = async ({ main }: RouteContext) => {
             <div class="project-card__meta">
               <div>
                 <div class="project-card__title">${p.title}</div>
-                <div class="project-card__loc">${p.location.city}, ${p.location.state}${p.year ? ` &middot; ${p.year}` : ''}</div>
+                <div class="project-card__loc">${projectTypologyLine(p)}</div>
               </div>
               <div class="project-card__index">${String(i + 1).padStart(2, '0')}</div>
             </div>

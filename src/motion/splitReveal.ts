@@ -4,32 +4,52 @@ import { env } from '@/store';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Split a single text node into per-word spans wrapped in line clip masks.
-// We avoid the licensed SplitText plugin by doing a lightweight per-word split.
-const splitIntoLines = (el: HTMLElement) => {
-  if (el.dataset.splitDone === '1') return;
-  const html = el.innerHTML;
-  // Replace explicit <br> with line breaks; treat each line independently.
-  const lines = html.split(/<br\s*\/?>(?:\s*)/i);
-  el.innerHTML = lines
-    .map((line) => {
-      // Per-word wrap inside per-line mask.
-      const words = line
-        .split(/(\s+)/)
-        .map((tok) =>
-          /\S/.test(tok)
-            ? `<span class="split-line__inner"><span class="word">${tok}</span></span>`
-            : tok
-        )
-        .join('');
-      return `<span class="split-line">${words}</span>`;
-    })
-    .join('<br>');
-  el.dataset.splitDone = '1';
+const markHeadingRevealDone = (title: HTMLElement) => {
+  title.dataset.headingRevealDone = '1';
+};
+
+const playHeadingReveal = (title: HTMLElement) => {
+  if (title.dataset.headingRevealDone === '1') return;
+  markHeadingRevealDone(title);
+  gsap.fromTo(
+    title,
+    { opacity: 0, y: 36 },
+    {
+      opacity: 1,
+      y: 0,
+      duration: 1.05,
+      ease: 'expo.out',
+    }
+  );
+};
+
+/** If the heading is already on screen, run the reveal without waiting for scroll. */
+const scheduleScrollHeadingReveal = (title: HTMLElement) => {
+  const tryPlayIfVisible = () => {
+    if (title.dataset.headingRevealDone === '1') return;
+    const r = title.getBoundingClientRect();
+    const vh = window.innerHeight;
+    if (r.bottom > 0 && r.top < vh + 100) {
+      playHeadingReveal(title);
+    }
+  };
+
+  ScrollTrigger.create({
+    trigger: title,
+    start: 'top bottom',
+    once: true,
+    onEnter: () => playHeadingReveal(title),
+  });
+
+  queueMicrotask(() => {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(tryPlayIfVisible);
+    });
+  });
 };
 
 export const animateHero = (root: HTMLElement) => {
-  const title = root.querySelector<HTMLElement>('[data-split="lines"]');
+  const title = root.querySelector<HTMLElement>('.home-hero [data-split="lines"]');
   if (!title) return;
 
   if (env.reduced) {
@@ -37,16 +57,18 @@ export const animateHero = (root: HTMLElement) => {
     return;
   }
 
-  splitIntoLines(title);
-  const inners = title.querySelectorAll<HTMLElement>('.split-line__inner');
-  gsap.set(inners, { yPercent: 110 });
-  gsap.to(inners, {
-    yPercent: 0,
-    duration: 1.1,
-    ease: 'expo.out',
-    stagger: 0.06,
-    delay: 0.15,
-  });
+  markHeadingRevealDone(title);
+  gsap.fromTo(
+    title,
+    { opacity: 0, y: 40 },
+    {
+      opacity: 1,
+      y: 0,
+      duration: 1.1,
+      ease: 'expo.out',
+      delay: 0.15,
+    }
+  );
 
   const lede = root.querySelector<HTMLElement>('[data-reveal]');
   if (lede) {
@@ -68,27 +90,11 @@ export const splitReveal = (root: HTMLElement) => {
     return;
   }
 
-  // Headings with data-split="lines" — clip-mask line stagger on enter.
   root.querySelectorAll<HTMLElement>('[data-split="lines"]').forEach((title) => {
-    splitIntoLines(title);
-    const inners = title.querySelectorAll<HTMLElement>('.split-line__inner');
-    gsap.set(inners, { yPercent: 110 });
-    ScrollTrigger.create({
-      trigger: title,
-      start: 'top 85%',
-      once: true,
-      onEnter: () => {
-        gsap.to(inners, {
-          yPercent: 0,
-          duration: 1.0,
-          ease: 'expo.out',
-          stagger: 0.05,
-        });
-      },
-    });
+    if (title.closest('.home-hero')) return;
+    scheduleScrollHeadingReveal(title);
   });
 
-  // Generic data-reveal — fade + lift on enter.
   root.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => {
     if (el.dataset.revealReady === '1') return;
     el.dataset.revealReady = '1';
