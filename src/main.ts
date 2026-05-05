@@ -3,23 +3,6 @@ import { startRouter } from '@/router';
 import { startCursor } from '@/ui/cursor';
 import { startSmoothScroll } from '@/motion/scroll';
 
-const applySpaRedirect = () => {
-  const url = new URL(location.href);
-  const p = url.searchParams.get('p');
-  if (!p) return;
-  url.searchParams.delete('p');
-
-  const base = import.meta.env.BASE_URL.endsWith('/')
-    ? import.meta.env.BASE_URL.slice(0, -1)
-    : import.meta.env.BASE_URL;
-
-  const decoded = decodeURIComponent(p);
-  const target = decoded.startsWith(base) ? decoded.slice(base.length) : decoded;
-  const normalized = target.startsWith('/') ? target : `/${target}`;
-
-  history.replaceState({}, '', base + normalized);
-};
-
 const dismissBoot = () => {
   const boot = document.getElementById('boot-loader');
   if (!boot) return;
@@ -32,7 +15,6 @@ const dismissBoot = () => {
 };
 
 const ready = () => {
-  applySpaRedirect();
   startSmoothScroll();
   startCursor();
   startRouter();
