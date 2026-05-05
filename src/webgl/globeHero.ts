@@ -59,7 +59,11 @@ const makeFallbackEarthTexture = (): THREE.CanvasTexture => {
   return tex;
 };
 
-const withBase = (p: string) => new URL(p, import.meta.env.BASE_URL).pathname;
+const withBase = (p: string) => {
+  const base = import.meta.env.BASE_URL || '/';
+  const absBase = new URL(base, window.location.origin);
+  return new URL(p, absBase).pathname;
+};
 
 const EARTH_WEBP = withBase('assets/ui/earth-hero-1024.webp');
 const EARTH_JPG = withBase('assets/ui/earth-atmos-2048.jpg');
